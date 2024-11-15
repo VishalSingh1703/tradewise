@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './login.css'
 
 function Login() {
-    const [count, setCount] = useState(0)
+    // create a login page
 
     return (
         <>
@@ -11,4 +11,4 @@ function Login() {
     )
 }
 
-export default App
+export default login
