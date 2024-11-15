@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import './login.css'
+import React,{useState} from 'react'
+import './Login.css'
 
-function login() {
+function Login() {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Add your authentication logic here
-        console.log("Email:", email);
-        console.log("Password:", password);
 
 
     return (
@@ -20,7 +15,7 @@ function login() {
                             <label>Email</label>
                             <input
                                 type="email"
-                                // value={email}
+                                value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 placeholder="Enter your email"
                                 required
@@ -47,4 +42,4 @@ function login() {
     )
 }
 
-export default login
+export default Login
