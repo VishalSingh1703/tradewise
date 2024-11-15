@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import './login.css'
 
-function Login() {
-    const [count, setCount] = useState(0)
-
+function Login() 
     return (
         <>
             <div>
